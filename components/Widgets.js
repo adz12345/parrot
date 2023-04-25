@@ -81,7 +81,7 @@ export default function Widgets({ newsResults, randomUsersResults }) {
           onClick={() => setRandomUserNum(randomUserNum + 3)}
           className="text-blue-300 pl-4 pb-3 hover:text-blue-400"
         >
-          Show more
+          Show more ...
         </button>
       </div>
     </div>

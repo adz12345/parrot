@@ -57,9 +57,9 @@ export async function getServerSideProps() {
     randomUsersResults = [];
   }
 
-  // const randomUsersResults = await fetch(
-  //   "https://randomuser.me/api/?results=30&inc=name,login,picture"
-  // ).then((res) => res.json());
+  const randomUsersResults = await fetch(
+    "https://randomuser.me/api/?results=50&inc=name,login,picture"
+  ).then((res) => res.json());
 
   return {
     props: {
